@@ -173,7 +173,7 @@ Eine Variabel kann nur einmal definiert werden (mit `let` oder `const`). Danach 
 
 WARNING: Es ist wichtig, dass beim Anlegen einer Variable, immer `let` oder `const` verwendet wird.
 
-TIP: Nachdem du in der console eine Variable definiert hast mit `let` oder `const`, kannst du deren Wert einfach abrufen, indem du lediglich den Variablenamen eingibst und Enter drückst.
+TIP: Nachdem du in der console eine Variable definiert hast mit `let` oder `const`, kannst du deren Wert einfach abrufen, indem du lediglich den Variablennamen eingibst und Enter drückst.
 
 
 === Lernkontrolle
@@ -182,7 +182,7 @@ Ich weiss, ...
 * [*] was eine Anweisung ist
 * [*] wie ich eine Variable anlege
 * [*] wie ich einer Variable einen Wert zuweise
-* [*] welche Variablearten es gibt
+* [*] welche Variablenarten es gibt
 ====
 
 
@@ -193,7 +193,7 @@ Um einen Computer anzuweisen eine Linie zu zeichnen, müssen wir ganz genau sage
 
 === Zeichenfläche
 Die Zeichenfläche, auf der die Linie entstehen soll, ist ein Rechteck. Dieses Rechteck ist in ein Raster unterteilt (unten im Bild rechts). Ähnlich wie bei einem Blatt Papier mit einem vorgezeichneten Gittermuster. {nbsp} +
-Aus dem Mathematikunterricht kennst du etwas ähnliches, das kartesische Koordinatensystem (unten im Bild links). Im Unterschied zum kartesischen System, ist beim Koordinatensystem unserer Zeichenfläche der 0-Punkt ganz oben Links. Es gibt also nur einen Quadranten, und alle Punkte im Koordinatensystem haben positive x- und y-Werte.
+Aus dem Mathematikunterricht kennst du etwas Ähnliches, das kartesische Koordinatensystem (unten im Bild links). Im Unterschied zum kartesischen System ist beim Koordinatensystem unserer Zeichenfläche der 0-Punkt ganz oben Links. Es gibt also nur einen Quadranten, und alle Punkte im Koordinatensystem haben positive x- und y-Werte.
 
 image::media/drawing-2d.svg[system,300,300,align=center]
 
@@ -857,7 +857,7 @@ Hinweis: `dist`, `random`, `frameRate`
 Ich weiss, ...
 ====
 * [*] wie ich Programmteile nur bedingt ausführe
-* [*] was die Keywords if und bedeuten
+* [*] was die Keywords if und else bedeuten
 ====
 
 == Blöcke & Geltungsbereiche
@@ -1004,7 +1004,7 @@ let c = 0
 
 == Schleifen
 
-Eine weiterer wichtiger Baustein von Programmiersprachen sind Schleifen. Damit kann man eine Liste von Befehlen wiederholt ausführen. Es gibt verschiedene Schleifentypen. Die einfachste davon ist die `while`-Schleife.
+Ein weiterer wichtiger Baustein von Programmiersprachen sind Schleifen. Damit kann man eine Liste von Befehlen wiederholt ausführen. Es gibt verschiedene Schleifentypen. Die einfachste davon ist die `while`-Schleife.
 
 === while Schleife
 
@@ -1020,8 +1020,8 @@ while(counter < stop) { // Abbruchbedingung
 }
 ----
 
-Im Beispiel oben, werden die Zeilen 4 und 5 insgesamt 3 mal nacheinander ausgeführt. Begonnen wird mit `counter = 0`. Der letzte Durchgang wird mit `counter = 2` ausgeführt. {nbsp} +
-Der Computer wiederholt also den Schleifeninhalt solange, bis die Abbruchbedingung `false` ist. Ist diese `false`, wird die Schleife nicht mehr ausgeführt. Der Computer führt dann die nächste Anweisung nach der Schleife aus, bzw. beendet das Programm, wenn nach der Schleife keine weitere Anweisung folgt.
+Im Beispiel oben werden die Zeilen 4 und 5 insgesamt 3 mal nacheinander ausgeführt. Begonnen wird mit `counter = 0`. Der letzte Durchgang wird mit `counter = 2` ausgeführt. {nbsp} +
+Der Computer wiederholt also den Schleifeninhalt so lange, bis die Abbruchbedingung `false` ist. Ist diese `false`, wird die Schleife nicht mehr ausgeführt. Der Computer führt dann die nächste Anweisung nach der Schleife aus, bzw. beendet das Programm, wenn nach der Schleife keine weitere Anweisung folgt.
 {nbsp} +
 Die Zeile 3 wird also 4 mal ausgeführt. Denn erst bei deren vierten Ausführung ist die Bedingung `false` und somit wird der Schleifeninhalt kein weiteres mal ausgeführt.
 
